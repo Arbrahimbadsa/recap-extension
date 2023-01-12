@@ -5,7 +5,8 @@
   "version": "1.0",
   "action": {
     "default_popup": "popup/index.html",
-    "default_title": "Translate now!"
+    "default_title": "Translate now!",
+    "default_icon": "translate.png"
   },
   "content_scripts": [
    {
