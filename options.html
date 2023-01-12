@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set options</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #eee;
+            height: 100vh;
+            width: 100vw;
+        }
+        div {
+            min-height: 300px;
+            min-width: 500px;
+            background-color: #fff;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            border-radius: 1rem;
+            padding: 16px;
+        }
+        button {
+            display: flex;
+            height: 25px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin-top: 16px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Options</h1>
+        <label for="ttt">Enable Tap to Translate</label>
+        <input type="checkbox" id="ttt" />
+        <button id="save">Save</button>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
