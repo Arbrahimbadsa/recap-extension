@@ -4,13 +4,13 @@
   "description": "Translate anything with just a click.",
   "version": "1.0",
   "action": {
-    "default_popup": "index.html",
+    "default_popup": "popup/index.html",
     "default_title": "Translate now!"
   },
   "content_scripts": [
    {
      "matches": ["<all_urls>"],
-     "js": ["content-script.js"]
+     "js": ["scripts/content-script.js"]
    }
  ],
  "options_page": "options.html",
